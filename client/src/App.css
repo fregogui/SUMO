@@ -23,7 +23,8 @@
 }
 
 body {
-  background-color: #dfddc7 !important;
+  background-color: #f2f2f2 !important;
+  color: #110133 !important;
 }
 
 .nav {
@@ -44,8 +45,85 @@ body {
 .imageCard {
   height: 40px !important;
   width: auto !important;
+  padding-bottom: 10px !important;
 }
 
-.imageCard img {
-  object-fit: contain !important;
+.blockCards {
+  margin: 30px 20px !important;
 }
+
+.card {
+  margin-bottom: 30px !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: 1px 2px 15px 1px rgba(0, 0, 0, 0.2) !important; 
+}
+
+.card a {
+  text-decoration: none !important;
+  color: #110133 !important;
+}
+
+.card p {
+  font-size: 16px !important;
+  display: flex !important;
+  justify-content: flex-end !important;
+  margin: 10px !important;
+}
+
+.price {
+  margin-left: 10px !important;
+  font-weight: 700 !important;
+  color: #00918e !important;
+}
+
+.myScooterBlock {
+  display: flex !important;
+  justify-content: space-around !important;
+  color: #00918e !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  align-items: center !important;
+}
+
+.myScooterImage {
+  height: 12vmin !important;
+  width: auto
+}
+
+/* Price choice page */
+
+.selected {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  margin-bottom: 20px !important;
+}
+
+.selectedOperator {
+  height: 8vmin !important;
+  width: auto;
+  margin-left: 10px !important;
+}
+
+.companyImage {
+  height: 40px !important;
+  width: auto;
+}
+
+.cardCompanyContent {
+  display: flex !important;
+  justify-content: space-around !important;
+  align-items: center !important;
+  color: #00918e;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* Scan Page */
+.iconScan {
+  margin: 40px 0 !important;
+  font-size: 130px !important;
+  color: #ffdc34 !important;
+}
+
