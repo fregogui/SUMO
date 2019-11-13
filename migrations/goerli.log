@@ -1,0 +1,1 @@
+Error upgrading parity data: CannotCreateConfigPath(Os { code: 13, kind: PermissionDenied, message: "Permission denied" })
