@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  height: 100%;
 }
 
 .App-logo {
@@ -19,4 +20,32 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+body {
+  background-color: #dfddc7 !important;
+}
+
+.nav {
+  background-color: #00918e !important;
+  padding: 0 !important;
+}
+
+.burger {
+  color: #110133 !important;
+}
+
+.logo {
+  max-height: 12vmin !important;
+  width: auto !important;
+  margin: 0 auto !important;
+}
+
+.imageCard {
+  height: 40px !important;
+  width: auto !important;
+}
+
+.imageCard img {
+  object-fit: contain !important;
 }
