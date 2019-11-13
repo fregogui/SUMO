@@ -30,15 +30,15 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"name\":\"x\",\"type\":\"uint256\"}],\"name\":\"set\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"get\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/elizaveta/Bureau/sumo/SUMO/contracts/SimpleStorage.sol\":\"SimpleStorage\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/elizaveta/Bureau/sumo/SUMO/contracts/SimpleStorage.sol\":{\"keccak256\":\"0x27a650f3e92e6057b3f1239be6fc335fb57d75c570d7274d8902eb0b04e48014\",\"urls\":[\"bzzr://72f63578772843cf2f8ae2bce4a69c027cbfe7f3e04cc4af14ca023bdc3c35c2\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b5060bd8061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806360fe47b11460375780636d4ce63c146062575b600080fd5b606060048036036020811015604b57600080fd5b8101908080359060200190929190505050607e565b005b60686088565b6040518082815260200191505060405180910390f35b8060008190555050565b6000805490509056fea165627a7a723058206f4df923e04d993879c69ade74b56c78e6448310b1f913e685bfadcd9ffcb29f0029",
-  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c806360fe47b11460375780636d4ce63c146062575b600080fd5b606060048036036020811015604b57600080fd5b8101908080359060200190929190505050607e565b005b60686088565b6040518082815260200191505060405180910390f35b8060008190555050565b6000805490509056fea165627a7a723058206f4df923e04d993879c69ade74b56c78e6448310b1f913e685bfadcd9ffcb29f0029",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"name\":\"x\",\"type\":\"uint256\"}],\"name\":\"set\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"get\",\"outputs\":[{\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/Frego/Documents/Blockathon/SUMO/contracts/SimpleStorage.sol\":\"SimpleStorage\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/Frego/Documents/Blockathon/SUMO/contracts/SimpleStorage.sol\":{\"keccak256\":\"0x27a650f3e92e6057b3f1239be6fc335fb57d75c570d7274d8902eb0b04e48014\",\"urls\":[\"bzzr://72f63578772843cf2f8ae2bce4a69c027cbfe7f3e04cc4af14ca023bdc3c35c2\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5060bd8061001f6000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806360fe47b11460375780636d4ce63c146062575b600080fd5b606060048036036020811015604b57600080fd5b8101908080359060200190929190505050607e565b005b60686088565b6040518082815260200191505060405180910390f35b8060008190555050565b6000805490509056fea165627a7a7230582061eb737a5ce7a7899d5bcab02fc14071cf79acaa928af1796093813507e8d4ef0029",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c806360fe47b11460375780636d4ce63c146062575b600080fd5b606060048036036020811015604b57600080fd5b8101908080359060200190929190505050607e565b005b60686088565b6040518082815260200191505060405180910390f35b8060008190555050565b6000805490509056fea165627a7a7230582061eb737a5ce7a7899d5bcab02fc14071cf79acaa928af1796093813507e8d4ef0029",
   "sourceMap": "25:176:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:176:1;;;;;;;",
   "deployedSourceMap": "25:176:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:176:1;;;;;;;;;;;;;;;;;;;;;;;;72:53;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;72:53:1;;;;;;;;;;;;;;;;;:::i;:::-;;129:70;;;:::i;:::-;;;;;;;;;;;;;;;;;;;72:53;119:1;106:10;:14;;;;72:53;:::o;129:70::-;165:4;184:10;;177:17;;129:70;:::o",
   "source": "pragma solidity ^0.5.0;\n\ncontract SimpleStorage {\n  uint storedData;\n\n  function set(uint x) public {\n    storedData = x;\n  }\n\n  function get() public view returns (uint) {\n    return storedData;\n  }\n}\n",
-  "sourcePath": "/home/elizaveta/Bureau/sumo/SUMO/contracts/SimpleStorage.sol",
+  "sourcePath": "/Users/Frego/Documents/Blockathon/SUMO/contracts/SimpleStorage.sol",
   "ast": {
-    "absolutePath": "/home/elizaveta/Bureau/sumo/SUMO/contracts/SimpleStorage.sol",
+    "absolutePath": "/Users/Frego/Documents/Blockathon/SUMO/contracts/SimpleStorage.sol",
     "exportedSymbols": {
       "SimpleStorage": [
         79
@@ -290,7 +290,7 @@
     "src": "0:202:1"
   },
   "legacyAST": {
-    "absolutePath": "/home/elizaveta/Bureau/sumo/SUMO/contracts/SimpleStorage.sol",
+    "absolutePath": "/Users/Frego/Documents/Blockathon/SUMO/contracts/SimpleStorage.sol",
     "exportedSymbols": {
       "SimpleStorage": [
         79
@@ -546,21 +546,15 @@
     "version": "0.5.8+commit.23d335f2.Emscripten.clang"
   },
   "networks": {
-    "1573654703822": {
+    "1573655617276": {
       "events": {},
       "links": {},
-      "address": "0xee24721Acc13F3b2d3382cdbB50d546925F9fe61",
-      "transactionHash": "0x60fad532ff5a0254dae490258db46580c1800f5f76fce70b9d08afea49ae0583"
-    },
-    "1573657037588": {
-      "events": {},
-      "links": {},
-      "address": "0xe510abF510132493E1695C6A24c9b7582d4EfcF2",
-      "transactionHash": "0x1b9aee594ad4736840b270e8402cee6a69db72e87eb0f38f3d36c09a061a3c29"
+      "address": "0xE0a2713D4bAf186A70C312339Ce53c9e28078155",
+      "transactionHash": "0x18e522bb2f0bf34a3e949bc19228f1b1ea388c89d65fab454e7b1682fb59979d"
     }
   },
   "schemaVersion": "3.0.16",
-  "updatedAt": "2019-11-13T14:58:47.930Z",
+  "updatedAt": "2019-11-13T14:37:24.757Z",
   "devdoc": {
     "methods": {}
   },
