@@ -91,10 +91,10 @@ class App extends Component {
               <ScanPage />
             </Route>
             <Route path="/finish-page">
-              <FinishPage />
+              <FinishPage value={this.state.storageValue} />
             </Route>
           </Switch>
-          <div>The stored value is: {this.state.storageValue}</div>
+          {/* <div>The stored value is: {this.state.storageValue}</div> */}
         </div>
       </Router>
     );

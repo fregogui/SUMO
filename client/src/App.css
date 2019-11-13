@@ -127,3 +127,22 @@ body {
   color: #ffdc34 !important;
 }
 
+/* Finish Page */
+.stopButton {
+  background-color: #ffdc34 !important;
+  width: 200px !important;
+  height: 200px !important;
+  border-radius: 50% !important;
+  margin: 0 auto !important;
+  font-size: 30px !important;
+  font-weight: 700 !important;
+  box-shadow: 1px 2px 15px 1px rgba(0, 0, 0, 0.2) !important;
+}
+
+.scoreBlock {
+  margin-top: 20px;
+  display: flex !important;
+  justify-content: flex-start !important;
+  font-size: 26px !important;
+}
+

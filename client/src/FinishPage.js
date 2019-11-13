@@ -1,10 +1,17 @@
 import React from "react";
 
-const FinishPage = () => {
+import Button from '@material-ui/core/Button';
+
+const FinishPage = ({ value }) => {
   return (
     <div className="blockCards">
-      <div className="selected">
-        <span>stop</span>
+      <div>
+      <Button variant="contained" className="stopButton">
+        STOP
+      </Button>
+      <div className="scoreBlock">
+        Ma note moyenne <span className="price">{value}</span> 
+      </div>
       </div>
     </div>
   )
