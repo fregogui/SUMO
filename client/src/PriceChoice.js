@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardActionArea from '@material-ui/core/CardActionArea';
+import './App.js'
 
 const companies = [
   {

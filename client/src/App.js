@@ -82,7 +82,7 @@ class App extends Component {
           <Nav />
           <Switch>
             <Route exact path="/">
-              <CardsList />
+              <CardsList value={this.state.storageValue}/>
             </Route>
             <Route path="/price-choice">
               <PriceChoice />
