@@ -10,13 +10,15 @@ const companies = [
     id: 1,
     name: "Axa",
     image: '/images/axa.png',
-    basicPrice: 0.1
+    basicPrice: 0.1,
+    showPrice: 0.8
   },
   {
     id: 2,
     name: "April",
     image: '/images/april.png',
-    basicPrice: 0.2
+    basicPrice: 0.2,
+    showPrice: 0.6
   }
 ]
 
@@ -35,7 +37,7 @@ const PriceChoice = () => {
               <Link to="/scan-page">
               <CardContent className="cardCompanyContent">
                 <img src={company.image} alt="" className="companyImage" />
-                <span>0,3€ / h</span>
+                <span>{company.showPrice} €/min</span>
               </CardContent>
               </Link>
               </CardActionArea>

@@ -37,10 +37,10 @@ const CardsList = () => {
                       <CardContent>
                         <img src={card.image} alt="logo partenaire" className="imageCard" />
                         <p>
-                          Location à partir de <span className="price">1€</span>
+                          Location à partir de <span className="price">0,4 €/min</span>
                         </p>
                         <p>
-                          Location + assurance à partir de <span className="price">1€</span>
+                          Location + assurance à partir de <span className="price">0,6 €/min</span>
                         </p>
                       </CardContent>
                       :
